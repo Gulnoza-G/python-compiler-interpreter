@@ -1,0 +1,11 @@
+pyproject.toml
+src/python/__init__.py
+src/python/compiler.py
+src/python/interpreter.py
+src/python/parser.py
+src/python/py.typed
+src/python/tokenizer.py
+src/python.egg-info/PKG-INFO
+src/python.egg-info/SOURCES.txt
+src/python.egg-info/dependency_links.txt
+src/python.egg-info/top_level.txt
