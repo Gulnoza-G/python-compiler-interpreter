@@ -885,18 +885,3 @@ python -m interpreter "2 * (3 + 4)"
 Done!
 Stack([14])
 ```
-
----
-
-### **Why This Design?**
-
-1. **Clear Separation of Responsibilities:**
-    - The tokenizer, parser, compiler, and interpreter handle distinct tasks.
-2. **Efficient Execution:**
-    - The stack simplifies computation by managing intermediate results.
-3. **Extensibility:**
-    - Easy to add more operators or features like floating-point numbers.
-
----
-
-The interpreter processes the bytecode step-by-step, managing a stack to compute results. It works seamlessly with other components, making the system modular and efficient.
