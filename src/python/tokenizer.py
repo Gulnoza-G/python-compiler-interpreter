@@ -58,4 +58,4 @@ class Tokenizer:
     def __iter__(self) -> Generator[Token, None, None]:
         while (token := self.next_token()).type != TokenType.EOF:
             yield token
-        yield token  # Yield the EOF token too.
+        yield token 
